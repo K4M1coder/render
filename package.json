@@ -2,10 +2,11 @@
   "name": "render",
   "version": "1.0.0",
   "description": "render json objects with chartjs",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "node doc.js"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/K4M1coder/render.git"
@@ -23,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/K4M1coder/render/issues"
   },
-  "homepage": "https://github.com/K4M1coder/render#readme"
+  "homepage": "https://github.com/K4M1coder/render#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "chart.js": "^1.0.2"
+  }
 }
