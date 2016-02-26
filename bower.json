@@ -1,0 +1,9 @@
+{
+  "name": "render",
+  "version": "1.0.b1",
+  "main": "./index.js",
+  "ignore": [],
+  "dependencies": {
+    "chart.js": "^1.0.2"
+  }
+}
